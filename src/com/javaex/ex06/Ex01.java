@@ -36,7 +36,7 @@ public class Ex01 {
 		////////////////////////////////////////////////////////////////////////////////////////////
 
 		// 정수 => 문자열 예제
-		String str = new String("hi");
+		String str = new String("hi");  // hi는 의미 없는 문자열이다.
 		String strResult = str.valueOf(123456); // 123456 => "123456"
 		System.out.println(strResult);
 
